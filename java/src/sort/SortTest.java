@@ -18,9 +18,10 @@ public class SortTest {
     }
 
     @Test
-    public void testBubble() {
+    public void test() {
         for (int i = 0; i < data.length; i += 2) {
             Assert.assertArrayEquals(sort.bubble(data[i]), data[i + 1]);
+            Assert.assertArrayEquals(sort.quick(data[i]), data[i + 1]);
         }
     }
 }
