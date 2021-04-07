@@ -13,15 +13,15 @@
 [//]: # "todo 按顺序做下面的。"
 <!--
 
-- 时间复杂度       
+《剑指Offer》
+《程序员面试金典》
+
+- 时间复杂度
 - 空间复杂度
-- 堆排序、归并排序
+- 堆排序、归并排序等 [排序算法全解析](https://leetcode-cn.com/leetbook/detail/sort-algorithms/)
 - 二叉树广度、深度优先遍历
 - 二叉树Morris方法遍历
 - 单链表是否有环 
-
-《剑指Offer》
-《程序员面试金典》
 
 [LeetCode-cn](https://leetcode-cn.com/company/)
 [牛客网](https://www.nowcoder.com/)
