@@ -3,12 +3,11 @@ package sort;
 import java.util.Arrays;
 
 /**
- * <a href='https://leetcode-cn.com/problems/sort-an-array'>sort an array</a>
+ * <a href="https://leetcode-cn.com/problems/sort-an-array">数组排序</a>
  */
 public class Sort {
 
-    public int[] bubble(int[] nums) {
-        int[] arr = Arrays.copyOf(nums, nums.length);// 不污染测试用例造的数据
+    public int[] bubble(int[] arr) {
         for (int i = arr.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -19,8 +18,7 @@ public class Sort {
         return arr;
     }
 
-    public int[] quick(int[] nums) {
-        int[] arr = Arrays.copyOf(nums, nums.length);
+    public int[] quick(int[] arr) {
         quick(arr, 0, arr.length - 1);
         return arr;
     }

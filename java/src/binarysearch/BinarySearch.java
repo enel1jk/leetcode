@@ -1,7 +1,7 @@
 package binarysearch;
 
 /**
- * <a href='https://leetcode-cn.com/problems/binary-search/'>二分查找</a>
+ * <a href="https://leetcode-cn.com/problems/binary-search/">二分查找</a>
  */
 public class BinarySearch {
     public int search(int[] arr, int target) {
