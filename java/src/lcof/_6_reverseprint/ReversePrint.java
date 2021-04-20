@@ -1,4 +1,4 @@
-package leetcode._6_reverseprint;
+package lcof._6_reverseprint;
 
 import java.util.ArrayList;
 import java.util.List;

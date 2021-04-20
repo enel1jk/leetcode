@@ -1,4 +1,4 @@
-package leetcode._4_findnumberin2darray;
+package lcof._4_findnumberin2darray;
 
 import org.junit.Assert;
 import org.junit.Test;

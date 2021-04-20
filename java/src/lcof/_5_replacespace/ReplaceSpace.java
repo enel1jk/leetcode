@@ -1,4 +1,4 @@
-package leetcode._5_replacespace;
+package lcof._5_replacespace;
 
 /**
  * <a href="https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/">剑指 Offer 05. 替换空格</a>

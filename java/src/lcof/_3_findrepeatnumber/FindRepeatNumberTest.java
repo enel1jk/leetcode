@@ -1,7 +1,7 @@
-package leetcode._3_findrepeatnumber;
+package lcof._3_findrepeatnumber;
 
-import leetcode._3_findrepeatnumber.FindRepeatNumber.Solution1;
-import leetcode._3_findrepeatnumber.FindRepeatNumber.Solution2;
+import lcof._3_findrepeatnumber.FindRepeatNumber.Solution1;
+import lcof._3_findrepeatnumber.FindRepeatNumber.Solution2;
 import org.junit.Assert;
 import org.junit.Test;
 

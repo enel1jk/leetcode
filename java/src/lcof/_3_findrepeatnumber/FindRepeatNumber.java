@@ -1,4 +1,4 @@
-package leetcode._3_findrepeatnumber;
+package lcof._3_findrepeatnumber;
 
 import java.util.HashSet;
 import java.util.Set;

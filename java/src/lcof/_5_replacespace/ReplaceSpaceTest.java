@@ -1,4 +1,4 @@
-package leetcode._5_replacespace;
+package lcof._5_replacespace;
 
 import org.junit.Assert;
 import org.junit.Test;

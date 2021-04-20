@@ -1,7 +1,7 @@
-package leetcode._6_reverseprint;
+package lcof._6_reverseprint;
 
-import leetcode._6_reverseprint.ReversePrint.Solution1;
-import leetcode._6_reverseprint.ReversePrint.Solution2;
+import lcof._6_reverseprint.ReversePrint.Solution1;
+import lcof._6_reverseprint.ReversePrint.Solution2;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
