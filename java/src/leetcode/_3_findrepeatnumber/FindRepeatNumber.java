@@ -10,7 +10,7 @@ public class FindRepeatNumber {
     public static class Solution1 {
         public int findRepeatNumber(int[] nums) {
             if (nums == null) return -1;
-            Set set = new HashSet<Integer>();
+            Set<Integer> set = new HashSet<>();
             for (int n : nums) {
                 if (!set.add(n)) {
                     return n;
