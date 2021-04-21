@@ -1,5 +1,7 @@
 package lcof._6_reverseprint;
 
+import common.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;

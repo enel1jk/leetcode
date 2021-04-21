@@ -1,5 +1,6 @@
 package lcof._6_reverseprint;
 
+import common.ListNode;
 import lcof._6_reverseprint.ReversePrint.Solution1;
 import lcof._6_reverseprint.ReversePrint.Solution2;
 import org.junit.Assert;
@@ -11,12 +12,7 @@ public class ReversePrintTest {
 
     @Before
     public void setup() {
-        ListNode l1 = new ListNode(1);
-        ListNode l2 = new ListNode(2);
-        ListNode l3 = new ListNode(3);
-        head = l1;
-        l1.next = l3;
-        l3.next = l2;
+        head = ListNode.fromArray(1, 3, 2);
     }
 
     @Test

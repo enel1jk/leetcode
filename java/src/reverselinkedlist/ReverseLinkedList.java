@@ -1,5 +1,7 @@
 package reverselinkedlist;
 
+import common.ListNode;
+
 /**
  * <a href="https://leetcode-cn.com/problems/reverse-linked-list/">反转链表</a>
  */
