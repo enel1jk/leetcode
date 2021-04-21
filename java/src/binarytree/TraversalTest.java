@@ -1,5 +1,7 @@
 package binarytree;
 
+import common.TreeNode;
+import common.utils.TreeUtil;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,22 +26,7 @@ public class TraversalTest {
 
     @Before
     public void root() {
-        TreeNode n0 = new TreeNode(0);
-        TreeNode n1 = new TreeNode(1);
-        TreeNode n2 = new TreeNode(2);
-        TreeNode n3 = new TreeNode(3);
-        TreeNode n4 = new TreeNode(4);
-        TreeNode n5 = new TreeNode(5);
-        TreeNode n6 = new TreeNode(6);
-
-        n4.left = n2;
-        n4.right = n5;
-        n2.left = n1;
-        n2.right = n3;
-        n5.right = n6;
-        n1.left = n0;
-
-        root = n4;
+        root = TreeUtil.constructTree("4,2,5,1,3,#,6,0,#");
         traversal = new Traversal();
     }
 
@@ -65,4 +52,12 @@ public class TraversalTest {
         Assert.assertEquals(traversal.postorderIteration(root), result);
         Assert.assertEquals(traversal.postorderIteration2(root), result);
     }
+
+    @Test
+    public void testLevelOrder() {
+        TreeNode root = TreeUtil.constructTree("3,9,20,#,#,15,7");
+        traversal.levelOrder(root);
+    }
+
+    // TODO: 2021/4/21 老代码用新的工具类重写
 }

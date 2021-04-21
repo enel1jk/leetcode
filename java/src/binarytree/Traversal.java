@@ -1,5 +1,7 @@
 package binarytree;
 
+import common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -146,4 +148,9 @@ public class Traversal {
         return result;
     }
 
+    /** level order */
+    public void levelOrder(TreeNode root) {
+// TODO: 2021/4/21
+
+    }
 }

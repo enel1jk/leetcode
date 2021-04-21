@@ -79,17 +79,15 @@ public class Codec {
             queue.offer(root);
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();
-                if (node != null) {
-                    String val = dataQueue.poll();
-                    if (!"#".equals(val)) {
-                        node.left = new TreeNode(Integer.parseInt(val));
-                        queue.offer(node.left);
-                    }
-                    val = dataQueue.poll();
-                    if (!"#".equals(val)) {
-                        node.right = new TreeNode(Integer.parseInt(val));
-                        queue.offer(node.right);
-                    }
+                String   val  = dataQueue.poll();
+                if (!"#".equals(val)) {
+                    node.left = new TreeNode(Integer.parseInt(val));
+                    queue.offer(node.left);
+                }
+                val = dataQueue.poll();
+                if (!"#".equals(val)) {
+                    node.right = new TreeNode(Integer.parseInt(val));
+                    queue.offer(node.right);
                 }
             }
             return root;
