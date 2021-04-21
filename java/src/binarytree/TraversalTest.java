@@ -56,8 +56,11 @@ public class TraversalTest {
     @Test
     public void testLevelOrder() {
         TreeNode root = TreeUtil.constructTree("3,9,20,#,#,15,7");
-        traversal.levelOrder(root);
+        List<List<Integer>> target = Arrays.asList(
+                Arrays.asList(3),
+                Arrays.asList(9, 20),
+                Arrays.asList(15, 7)
+        );
+        Assert.assertEquals(traversal.levelOrder(root), target);
     }
-
-    // TODO: 2021/4/21 老代码用新的工具类重写
 }

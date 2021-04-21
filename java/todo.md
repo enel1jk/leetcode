@@ -18,7 +18,6 @@
 - 时间复杂度
 - 空间复杂度
 - 堆排序、归并排序等 [排序算法全解析](https://leetcode-cn.com/leetbook/detail/sort-algorithms/)
-- 二叉树广度、深度优先遍历
 - 二叉树Morris方法遍历
 - 单链表是否有环 
 
