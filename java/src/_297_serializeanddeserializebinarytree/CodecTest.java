@@ -12,13 +12,9 @@ import org.junit.Test;
 public class CodecTest {
 
     TreeNode root1, root2, root3, root4;
-    private Solution1 solution1;
-    private Solution2 solution2;
 
     @Before
     public void setup() {
-        solution1 = new Solution1();
-        solution2 = new Solution2();
         root1 = new TreeNode(1, new TreeNode(2), new TreeNode(3, new TreeNode(4), new TreeNode(5)));
         root2 = null;
         root3 = new TreeNode(1);
@@ -27,13 +23,13 @@ public class CodecTest {
 
     @Test
     public void testSolution1() {
-        test(solution1);
+        test(new Solution1());
     }
 
 
     @Test
     public void testSolution2() {
-        test(solution2);
+        test(new Solution2());
     }
 
     private void test(Solution solution) {
