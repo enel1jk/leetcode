@@ -1,4 +1,4 @@
-package lcof._10_fib;
+package lcof._10_1_fib;
 
 import org.junit.Assert;
 import org.junit.Test;
