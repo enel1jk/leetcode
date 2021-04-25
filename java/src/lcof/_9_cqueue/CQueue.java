@@ -6,7 +6,7 @@ import java.util.Stack;
  * <a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/">剑指 Offer 09. 用两个栈实现队列</a>
  */
 public class CQueue {
-    private Stack<Integer> s1, s2;
+    private final Stack<Integer> s1, s2;
 
     public CQueue() {
         s1 = new Stack<>();
