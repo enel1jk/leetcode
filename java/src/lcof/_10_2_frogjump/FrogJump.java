@@ -1,5 +1,8 @@
 package lcof._10_2_frogjump;
 
+/**
+ *  * <a href="https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/">剑指 Offer 10- II. 青蛙跳台阶问题</a>
+ */
 public class FrogJump {
     public static class Solution1 {
         public int numWays(int n) {
